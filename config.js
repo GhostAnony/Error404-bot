@@ -13,7 +13,7 @@ const moduleCache = new NodeCache({ stdTTL: 300 });
 
 global.owner = [
   ['393508909956', 'allucinogeno', true],
-  ['393888929583', 'gab', true]
+  ['393888929583', 'gab', true],
   ['212784392820', 'deadly', true]
 ]
 global.mods = ['xxxxxxxxxx', 'xxxxxxxxxx']
