@@ -18,7 +18,7 @@ const menuBody = `
 • *Vᴇʀsɪᴏɴᴇ:* ${global.versione}
 • *Uᴛᴇɴᴛɪ:* ${totalUsers}
 • *Uᴘᴛɪᴍᴇ:* ${uptimeStr}
-• *Dᴇᴠ:* Allucinogeno & Gab
+• *Dᴇᴠ:* Mors & Gab
 `.trim()
 
 const buttons = [
