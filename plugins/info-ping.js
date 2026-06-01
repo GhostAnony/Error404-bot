@@ -20,7 +20,7 @@ const clockString = ms => {
 const handler = async (m, { conn, usedPrefix }) => {
   const start = performance.now()
 
-  const percent = Math.floor(Math.random() * 21) + 80 // 80-100%
+  const percent = Math.floor(Math.random() * 21) + 80 
   const filled = Math.floor(percent / 10)
   const bar = '▰'.repeat(filled) + '▱'.repeat(10 - filled)
 
