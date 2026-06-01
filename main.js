@@ -771,6 +771,9 @@ setInterval(async () => {
         console.log(chalk.bold.greenBright(`\n╭⭑ 🟢 PULIZIA MULTIMEDIA 🟢⭑\n┃          ${deleted} FILE NELLA CARTELLA TEMP\n┃          ELIMINATI CON SUCCESSO\n╰⭑🗑️ ERROR-BOT ♻️⭑`));
     }
 }, 1000 * 60 * 60);
+
+}
+
 _quickTest().then(() => conn.logger.info(chalk.bold.magentaBright(``)));
 let filePath = fileURLToPath(import.meta.url);
 const mainWatcher = watch(filePath, async () => {
