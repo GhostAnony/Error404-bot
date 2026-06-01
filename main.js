@@ -774,7 +774,7 @@ setInterval(async () => {
 
 }
 
-_quickTest().then(() => conn.logger.info(chalk.bold.magentaBright(``)));
+// _quickTest().then(() => conn.logger.info(chalk.bold.magentaBright(``)));
 let filePath = fileURLToPath(import.meta.url);
 const mainWatcher = watch(filePath, async () => {
   console.log(chalk.bgHex('#3b0d95')(chalk.white.bold("File: 'main.js' Aggiornato")))
